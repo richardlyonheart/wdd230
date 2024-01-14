@@ -19,9 +19,6 @@ nav, p, footer {
 }
 nav {
     display: flex;
-    align-items: space-around;
-    justify-content: space-around;
-    padding: 20px;
 }
 
 .card {
