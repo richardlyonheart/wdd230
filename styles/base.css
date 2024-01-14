@@ -17,6 +17,7 @@ header {
 }
 span{
     display: inline;
+    font-size:xx-large
 }
 nav, p, footer {
     font-family: 'Salsa';
