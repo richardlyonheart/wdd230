@@ -27,6 +27,9 @@ section{
     max-width: 400px;
     border: 5px solid black;
 }
+img{
+    max-width: 50%;
+}
 .primary{
     background-color: #f79256;
 }
