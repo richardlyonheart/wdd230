@@ -20,3 +20,12 @@ section{
     max-width: 400px;
     border: 5px solid black;
 }
+.primary{
+    background-color: #f79256;
+}
+.secondary{
+    background-color: #fbd1a2;
+}
+.tercerary{
+    background-color: #7dcfb6;
+}
