@@ -6,6 +6,12 @@
     --heading-font: "Nanum Myeongjo";
     --paragraph-font: "Lora";
 }
+h1, h2{
+    font-family: var(--heading-font);
+}
+h3, h4, p{
+    font-family: var(--paragraph-font);
+}
 header{
     text-align: center;
 }
