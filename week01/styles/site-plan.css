@@ -9,7 +9,11 @@
 header{
     text-align: center;
 }
+body{
+    background-color: #f79256;
+}
 section{
+    background-color: #fbd1a2;
     align-self: center;
     text-align: center;
     width:100%;
