@@ -1,5 +1,11 @@
 @media screen and (min-width:700px) {
-
+body{
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+header, nav, footer{ 
+    grid-column:1/4 ;
+}
 .logo{
     float: left;
     width: 25%;
@@ -19,27 +25,26 @@ ul{
 li{
     display: flex;
     float: left;
-    padding: 20px;
+    padding: 1rem;
 
-}
-li a{
-    margin: 30px;
 }
 h1{
     display: inline-block;
     width: 100%;
-    margin-top: 20px;
-    justify-content: space-between;
+    margin-top: 0;
 }
 nav, p, footer {
     font-family: 'Salsa';
 }
+nav{
+    background-color: antiquewhite;
+}
 .card {
-    display: inline-flex;
-    margin: 5%;
+    display:inline-flex;
+    margin: 1%;
+    padding: 5%;
     text-align: center;
-    justify-content: space-around;
-    width:35%;
+    width:33%;
     min-width: 20px;
     max-width: 900px;
     border: 2px solid black;
