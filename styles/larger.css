@@ -39,10 +39,16 @@ nav, p, footer {
 nav{
     background-color: antiquewhite;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .card {
-    display:inline-flex;
+    display: grid;
     margin: 1%;
-    padding: 3rem;
+    padding: 1rem;
     text-align: center;
     border: 2px solid black;
     box-shadow: 5px 5px 10px;
