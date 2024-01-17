@@ -51,3 +51,6 @@ footer {
     background-color: burlywood;
     border: 5px solid black;
 }
+footer span{
+    font-size: medium;
+}
