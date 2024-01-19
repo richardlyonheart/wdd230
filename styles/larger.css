@@ -24,6 +24,8 @@ ul{
 }
 li{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     float: left;
     padding: 1rem;
 
