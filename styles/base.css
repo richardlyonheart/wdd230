@@ -17,8 +17,10 @@ header {
     box-shadow: 5px 5px 10px;
 }
 span{
-    display: inline;
-    font-size:xx-large
+    display: inline-flex;
+    flex-direction: row;
+    padding-top: 25%;
+    font-size:x-large;
 }
 main{
     display: flex;

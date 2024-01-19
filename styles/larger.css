@@ -15,9 +15,8 @@ header, nav, footer{
     box-shadow: 5px 5px 10px;
 }
 span{
-    display: inline-block;
-    margin-top: 15%;
-    
+    padding-top: 20%;
+    font-size: xx-large;
 }
 ul{
     list-style-type: none;
