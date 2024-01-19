@@ -45,7 +45,7 @@ nav{
     display: none;
 }
 
-ul.navlist {
+nav .navlist{
     display: flex;
     flex-direction: row;
     color:black;
