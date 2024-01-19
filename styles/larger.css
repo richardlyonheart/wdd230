@@ -41,12 +41,14 @@ nav{
 }
 main{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .card {
     display: grid;
+    width: 40%;
     margin: 1%;
     padding: 1rem;
     text-align: center;
