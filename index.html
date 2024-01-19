@@ -24,18 +24,20 @@
             <span>Brenden T Lyon</span>
         </a>
     </header>
-    <nav><ul id="navlist">
-       <li><a id="home" href="index.html">HOME</a></li>
-        <li><a id="chamber" href="">CHAMBER</a></li>
-        <li><a id="site-plan" href="week01/chamber-site-plan.html">SITE PLAN</a></li>
-        <li><a id="designs" href="week02/design.html">DESIGNS</a></li>
-        <li><a id="form" href="">FORM</a></li>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navlist">
+            <li><a id="home" href="index.html">HOME</a></li>
+            <li><a id="chamber" href="">CHAMBER</a></li>
+            <li><a id="site-plan" href="week01/chamber-site-plan.html">SITE PLAN</a></li>
+            <li><a id="designs" href="week02/design.html">DESIGNS</a></li>
+            <li><a id="form" href="">FORM</a></li>
     </ul></nav>
     <main>
         <h1 id="title">WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
-            <ul>
+            <ul class ="learning">
                 <li>Week 01 <a href="week01/chamber-site-plan.html">  Chamber Site Plan</a> | <a href="week01/holygrail.html">Holy Grail</a> | <a href="week01/media-query.html">Media Query</a></li>
                 <li>Week 02 <a href="design">  Design</a> | <a href="https://codepen.io/richardlyonheart/pen/bGZWEyP">Hamburger</a> | <a href="week02/bom.html">DOM manipulation</a></li>
                 <li>a</li>
@@ -45,7 +47,7 @@
         </section>
         <section class="card">
             <h2>Information</h2>
-            <ul>
+            <ul class="information">
                 <li>number of visits</li>
                 <li>Weather</li>
                 <li>Something Else</li>
@@ -57,5 +59,6 @@
         <p>Last modified  <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/nav_menu.js"></script>
 </body>
 </html>

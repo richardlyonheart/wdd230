@@ -24,16 +24,63 @@ main{
     display: flex;
     flex-direction: column;
 }
+nav, footer{
+    border: 5px solid black;
+    margin: 1%;
+}
 nav, p, footer {
     font-family: 'Salsa';
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     justify-self: normal;
 }
-ul{
+#menu {
+	font-size: 2rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: burlywood;
+	color: #000;
+}
+#menu::before {
+	content: "☰";
+}
+#menu.open::before {
+	content: "X";
+}
+nav {
+    background-color: burlywood;
+    justify-items: center;
+    
+}
+nav .navlist {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+nav a:hover {
+    background-color: #E0E1DD;
+    color:#000000
+}
+.learning, .information {
     list-style-type: none;
     padding-inline-start: 0px;
 }
-li a{
+.learning li a, .information li a {
     display: flex;
     flex-direction: column;
 }
@@ -43,9 +90,10 @@ h1{
     justify-content: space-between;
 }
 .card {
+    background-color: burlywood;
     align-self: center;
     text-align: center;
-    width:90%;
+    width: 85%;
     margin-bottom: 10%;
     min-width: 20px;
     padding: 1rem;
@@ -55,7 +103,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     background-color: burlywood;
-    border: 5px solid black;
+    
 }
 footer span{
     font-size: medium;

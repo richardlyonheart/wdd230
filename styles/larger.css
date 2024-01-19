@@ -39,7 +39,16 @@ nav, p, footer {
     font-family: 'Salsa';
 }
 nav{
-    background-color: antiquewhite;
+    background-color: burlywood;
+}
+#menu {
+    display: none;
+}
+
+ul.navlist {
+    display: flex;
+    flex-direction: row;
+    color:black;
 }
 main{
     display: flex;
