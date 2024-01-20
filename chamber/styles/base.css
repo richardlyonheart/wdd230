@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Nanum+Myeongjo:wght@800&display=swap');
+:root{
+    --heading-font: "Nanum Myeongjo";
+    --paragraph-font: "Lora";
+}
+h1, h2{
+    font-family: var(--heading-font);
+}
+h3, h4, p{
+    font-family: var(--paragraph-font);
+}
+body {
+display: grid;
+}
+header{
+    border: 5px solid black;
+}
+nav{
+    border: 5px solid black;
+}
+main{
+    border: 5px solid black;
+}
+
+footer{
+    border: 5px  solid black;
+}
