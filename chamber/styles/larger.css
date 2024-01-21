@@ -31,6 +31,9 @@
         flex-direction: row;
         color:black;
     }
+    .navlist li {
+        display: block;
+    }
     main{
         display: flex;
         flex-direction: row;
