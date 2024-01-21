@@ -45,31 +45,7 @@ main{
     text-align:center;
     font-family: 'Nanum-Myeong';
 }
-#current_events{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fbd1a2;
-    justify-content: space-around;
-    text-align: center;
-    width: 85%;
-    margin-bottom: 10%;
-    min-width: 20px;
-    padding: 1rem;
-    border: 5px solid black;
-}
-#weather{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fbd1a2;
-    justify-content: space-around;
-    text-align: center;
-    width: 85%;
-    margin-bottom: 10%;
-    min-width: 20px;
-    padding: 1rem;
-    border: 5px solid black;
-}
-#spotlights{
+.card{
     display: flex;
     flex-wrap: wrap;
     background-color: #fbd1a2;
