@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Nanum+Myeongjo:wght@800&display=swap');
 :root{
-    --heading-font: "Nanum Myeongjo";
+    --heading-font: "Nanum+Myeongjo";
     --paragraph-font: "Lora";
 }
 content {
