@@ -22,6 +22,43 @@ header{
 nav{
     border: 5px solid black;
 }
+#menu {
+	font-size: 2rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 10px 7px 6px;
+	background-color: #fbd1a2;
+	color: #000;
+}
+#menu::before {
+	content: "☰";
+}
+#menu.open::before {
+	content: "X";
+}
+nav {
+    background-color:#fbd1a2 ;
+    justify-items: center;
+}
+nav .navlist {
+    display: none;
+}
+nav ul {
+    list-style-type: none;
+}
+nav a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000000;
+}
+nav a:hover {
+    background-color: #E0E1DD;
+    color:#000000
+}
 main{
     border: 5px solid black;
 }
@@ -43,7 +80,7 @@ main{
 }
 .button-box {
     text-align:center;
-    font-family: 'Nanum-Myeong';
+    font-family: var(--paragraph-font);
 }
 .card{
     display: flex;
