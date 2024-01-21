@@ -21,43 +21,50 @@ header{
 }
 nav{
     border: 5px solid black;
+    background-color: #fbd1a2;
 }
 #menu {
-	font-size: 2rem;
+	font-size: xx-large;
 	border: 1px solid rgba(0,0,0,.3);
-	padding: 10px 7px 6px;
 	background-color: #fbd1a2;
 	color: #000;
 }
 #menu::before {
 	content: "☰";
 }
+
 #menu.open::before {
 	content: "X";
 }
-nav {
-    background-color:#fbd1a2 ;
-    justify-items: center;
+
+.navlist {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #fbd1a2;
+	color: #000;
 }
-nav .navlist {
-    display: none;
+.navlist li {
+	display: none;
 }
-nav ul {
-    list-style-type: none;
+.navlist li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
 }
-nav a {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-family: var(--paragraph-font);
-    font-size: 1.2rem;
-    padding: 1rem;
-    text-decoration: none;
-    color: #000000;
+.navlist li a:hover {
+	background-color: #7dcfb6;
+	color: #333;
+	font-weight: 700;
 }
-nav a:hover {
-    background-color: #E0E1DD;
-    color:#000000
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
 }
 main{
     border: 5px solid black;
@@ -65,7 +72,6 @@ main{
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
 }
 #hero-img {
     grid-column:1/4;
@@ -80,7 +86,7 @@ main{
 }
 .button-box {
     text-align:center;
-    font-family: var(--paragraph-font);
+    font-family: 'Nanum-Myeong';
 }
 .card{
     display: flex;
