@@ -49,6 +49,9 @@ nav .navlist{
     flex-direction: row;
     color:black;
 }
+nav .navlist li{
+    display: block;
+}
 main{
     display: flex;
     flex-direction: row;
