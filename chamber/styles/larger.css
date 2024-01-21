@@ -1,0 +1,54 @@
+@media screen and (min-width:700px) {
+    body{
+        display: grid;
+        grid-template: auto 1fr auto / auto 1fr auto;
+    }
+    header, nav, footer{ 
+        grid-column:1/4 ;
+    }
+   
+    ul{
+        list-style-type: none;
+    }
+    li{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        float: left;
+        padding: 1rem;
+    }
+    h1{
+        display: inline-block;
+        width: 100%;
+        margin-top: 0;
+    }
+    #menu {
+        display: none;
+    }
+    .navlist{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color:black;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .card {
+        display: grid;
+        width: 40%;
+        margin: 1%;
+        padding: 1rem;
+        text-align: center;
+        border: 2px solid black;
+        box-shadow: 5px 5px 10px;
+    }
+    
+    footer {
+    background-color: #fbd1a2;
+    }
+    }
