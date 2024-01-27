@@ -132,6 +132,7 @@ h1{
 }
 iframe {
     align-self: center;
+    width: 95%;
 }
 footer {
     display: flex;
