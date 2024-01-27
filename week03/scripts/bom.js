@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
         input.focus();
     }   
     else {
-        window.alert('Please enter in a favorite chapter.');
+        window.alert('you forgot to enter a favorite chapter.');
     }
 });
 
@@ -33,4 +33,15 @@ function displayList(item) {
       deleteChapter(li.textContent);
       input.focus();
     });
+}
+function setChapterList() {
+    localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
+}
+function getChapterList(){
+    return JSON.parse(localStorage.getItem('myFavBOMList'));
+}
+function deleteChapter() {
+    chapter =chapter.slice(0, chapter.length -1);
+    chaptersArray = chaptersArray.filter((item) => 1== chapter);
+    setChapterList();
 }
