@@ -36,7 +36,6 @@ main{
 	margin: 10px auto;
 	position: relative;
 	border: 1px solid rgba(0,0,0,.1);
-	height: 300px;
 }
 
 .hero picture {
@@ -53,13 +52,13 @@ main{
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
 	box-shadow: 0 0 3rem #fff;
-	opacity: 0.75;
+	opacity: 0.5;
 }
 
 .herolabel p {
 	margin: 0;
 	padding: .25rem;
-	font-weight: 700;
+	font-weight: 800;
 	font-size: 2rem;
 }
 nav, footer{
@@ -130,6 +129,9 @@ h1{
     min-width: 20px;
     padding: 1rem;
     border: 5px solid black;
+}
+iframe {
+    align-self: center;
 }
 footer {
     display: flex;
