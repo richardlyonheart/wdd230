@@ -25,32 +25,34 @@
         <button id="menu"></button>
         <ul class="navlist">
             <li><a id="home" href="index.html">HOME</a></li>
-            <li><a id="page1" href="">#</a></li>
+            <li><a id="discover" href="discover.html">DISCOVER</a></li>
             <li><a id="page2" href="">#</a></li>
     </ul>
     </nav>
     <main>
-        <div id="hero">
-            <div id="hero-img">
-                <img src="images/galveston_island_smaller.jpg" alt="picture of Galveston Island">
-                <div class='button-box'>
-                    <a class='join' href="#">Join the chamber</a>
-                </div>
+        <div class="hero">
+            <picture>
+                <source srcset="images/galveston_island_smaller.jpg" media="(max-width:700px)">
+                <img src="images/galveston_island_large.webp" alt="galveston island" width="1000" height="500">
+            </picture>
+            <div class='button-box'>
+                <a class='join' href="#">Join the chamber</a>
             </div>
-            <section id="hero-msg">
+            <div class="hero-msg">
                 <h2 class="home-title">Keeping you in the know!</h2>
                 <h4>WE ARE IN TOGETHER</h4>
-            </section>
+            </div>
         </div>
-        <div class="card">
-            <h2>Upcoming!</h2>
-        </div>
-        <div class="card">
-            <h2>Weather</h2>
-        </div>
-        <div class="card">
-            <h2>Notable findings!</h2>
-        </div>
+        <section class="sidebar">
+            <div class="card">
+                <h2>Upcoming!</h2>
+            </div>
+            <div class="card">
+                <h2>Weather</h2>
+            </div>
+            <div class="card">
+                <h2>Notable findings!</h2>
+            </div>
     </main>
     <footer>
         <p>Contact us: "email"</p>
