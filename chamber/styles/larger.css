@@ -39,8 +39,11 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        grid-column: 1/3;
     }
-    
+    .sidebar{
+        float: inline-end;
+    }
     .card {
         display: grid;
         width: 40%;

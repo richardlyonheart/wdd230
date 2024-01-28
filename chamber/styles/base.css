@@ -67,6 +67,7 @@ nav{
 	display: block;
 }
 main{
+    display: grid;
     border: 5px solid black;
 }
 #hero {
@@ -88,6 +89,7 @@ main{
     text-align:center;
     font-family: 'Nanum-Myeong';
 }
+
 .card{
     display: flex;
     flex-wrap: wrap;
