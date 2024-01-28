@@ -106,7 +106,8 @@ main{
     border: 5px solid black;
 }
 .card img{
-	width: 85%
+	width: 85%;
+	justify-self: center;
 }
 footer{
     background-color: #fbd1a2;
