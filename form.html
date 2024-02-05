@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="wdd 230 - web frontend development - Brenden Lyon - forms page">
+    <meta name="author" content="Brenden lyon">
+    <title>Brenden Lyon - WDD 230 - Web Frontend Development - forms</title>
+    <link href="https://fonts.googleapis.com/css?family=Lemon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Salsa" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/profile-small.png" alt="Lyons-logo">
+            <span>Brenden T Lyon</span>
+        </a>
+        <div id="mode">
+           🕶️
+        </div>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navlist">
+            <li><a id="home" href="index.html">HOME</a></li>
+            <li><a id="chamber" href="chamber/index.html">CHAMBER</a></li>
+            <li><a id="site-plan" href="week01/chamber-site-plan.html">SITE PLAN</a></li>
+            <li><a id="designs" href="week02/design.html">DESIGNS</a></li>
+            <li><a id="form" href="form.html">FORM</a></li>
+    </ul></nav>
+    <main>
+        <h1></h1>
+        <form method="get" action="record.html">
+        <fieldset>
+            <legend>Username</legend>
+            <label class="top">Username* <input type="text" id="user" name="user" required></label>
+            <label class="top">Password* <input type="password" id="pwd" name="pwd" pattern=".{8,}" title="eight or more characters and no special charaters" input type="submit" required></label>
+            <label class="top">Confirm Password* <input type="password" id="pwd2" name="password2" input type="submit" title="passwords do not match" required></label>
+            <label class="top">Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="someone@byui.edu" title="please enter an email address from BYUI" required></label>
+            <label class="top">Page rating</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <div class="ref">
+                <a href="https:developer.mozilla.org/en-us/docs/web/html/element.input/range"></a>
+            </div>
+        </fieldset>
+        <input type="submit" value="Create Account" class="submitBtn">
+    </form>
+    </main>        
+</body>
+<script src="scripts/pageCounter.js"></script>
+<script src="scripts/nav_menu.js"></script>
+<script src="scripts/dark_mode.js"></script>
+</html>

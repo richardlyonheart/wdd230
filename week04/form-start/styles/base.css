@@ -59,7 +59,7 @@ main {
     min-height: 20rem;
 }
 form fieldset {
-    margin: 2rem0;
+    margin: 2rem 0;
     border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5rem 2%;
