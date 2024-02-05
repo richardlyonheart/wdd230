@@ -134,10 +134,10 @@ form label.top form label.large{
 form label.top input, form label.top select{
     display: block;
     font-size: 1rem;
-    border: solid;
+    border: solid var(--terc-color);
     border-radius: 10px;
     padding: .75rem;
-    color: var(--terc-color);
+    color: black;
     width: 85%;
     max-width: 20rem;
 }
