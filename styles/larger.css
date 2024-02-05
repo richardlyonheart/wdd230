@@ -16,7 +16,7 @@ header, nav, footer{
     box-shadow: 5px 5px 10px;
 }
 span{
-    padding-top:10%;
+    padding-top: 20%;
     font-size: xx-large;
 }
 ul{
@@ -57,7 +57,7 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .hero {
 	position: relative;
@@ -72,9 +72,9 @@ main{
 
 .card {
     display: grid;
-    width: 25%;
+    width: 40%;
     margin: 1%;
-    padding: ;
+    padding: 1rem;
     text-align: center;
     border: 2px solid black;
     box-shadow: 5px 5px 10px;
