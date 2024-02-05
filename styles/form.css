@@ -1,7 +1,12 @@
+:root {
+    --bord: 5px solid black;
+    --background-color: burlywood;
+    --good-spacing: 1rem;
+}
 form fieldset {
     margin: 1%;
-    border: 5px solid black;
-    background-color: burlywood;
+    border: var(--bord);
+    background-color: var(--background-color);
     padding: .5rem 2%;
 }
 form legend{
@@ -11,7 +16,7 @@ form legend{
 }
 form label.top{
     display: block;
-    padding-top: 1rem;
+    padding-top: var(--good-spacing);
 }
 form label.top input, form label.top select{
     display: block;
