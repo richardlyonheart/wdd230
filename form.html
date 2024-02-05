@@ -34,13 +34,13 @@
             <li><a id="form" href="form.html">FORM</a></li>
     </ul></nav>
     <main>
-        <h1></h1>
+        <h1>Create an Account Now</h1>
         <form method="get" action="record.html">
         <fieldset>
             <legend>Username</legend>
             <label class="top">Username* <input type="text" id="user" name="user" required></label>
-            <label class="top">Password* <input type="password" id="pwd" name="pwd" pattern=".{8,}" title="eight or more characters and no special charaters" input type="submit" required></label>
-            <label class="top">Confirm Password* <input type="password" id="pwd2" name="password2" input type="submit" title="passwords do not match" required></label>
+            <label class="top">Password* <input type="password" id="pwd" name="pwd" pattern=".{8,}" title="eight or more characters and no special charaters" required></label>
+            <label class="top">Confirm Password* <input type="password" id="pwd2" name="password2" title="passwords do not match" required></label>
             <label class="top">Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="someone@byui.edu" title="please enter an email address from BYUI" required></label>
             <label class="top">Page rating</label>
             <div id="rangevalue">0</div>
@@ -58,15 +58,11 @@
                 <option value="9">9</option>
                 <option value="10">10</option>
             </datalist>
-            <div class="ref">
-                <a href="https:developer.mozilla.org/en-us/docs/web/html/element.input/range"></a>
-            </div>
         </fieldset>
         <input type="submit" value="Create Account" class="submitBtn">
     </form>
     </main>        
 </body>
-<script src="scripts/pageCounter.js"></script>
 <script src="scripts/nav_menu.js"></script>
 <script src="scripts/dark_mode.js"></script>
 </html>
