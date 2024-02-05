@@ -79,6 +79,13 @@ main{
     border: 2px solid black;
     box-shadow: 5px 5px 10px;
 }
+.learning li{
+    display: block;
+    width:40%;
+    margin: 1%;
+    padding:2%;
+    border: solid;
+}
 iframe {
     justify-self: center;
 }
