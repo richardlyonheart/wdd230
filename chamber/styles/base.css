@@ -2,6 +2,8 @@
 :root{
     --heading-font: "Nanum+Myeongjo";
     --paragraph-font: "Lora";
+	--background-color: #fbd1a2;
+	--terc-color: #7dcfb6;
 }
 content {
     max-width: 1600px;
@@ -23,12 +25,12 @@ header{
 }
 nav{
     border: 5px solid black;
-    background-color: #fbd1a2;
+    background-color: var(--background-color);
 }
 #menu {
 	font-size: xx-large;
 	border: 1px solid rgba(0,0,0,.3);
-	background-color: #fbd1a2;
+	background-color: var(--background-color);
 	color: #000;
 }
 #menu::before {
@@ -43,7 +45,7 @@ nav{
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-	background-color: #fbd1a2;
+	background-color: var(--background-color);
 	color: #000;
 }
 .navlist li {
@@ -57,7 +59,7 @@ nav{
 	color: #000;
 }
 .navlist li a:hover {
-	background-color: #7dcfb6;
+	background-color: var(--terc-color);
 	color: #333;
 	font-weight: 700;
 }
@@ -101,7 +103,7 @@ main{
 .card{
 	margin-top: 5%;
 	margin-bottom: 5%;
-    background-color: #fbd1a2;
+    background-color: var(--background-color);
     text-align: center;
     width: 85%;
     min-width: 20px;
@@ -112,8 +114,72 @@ main{
 	width: 85%;
 	justify-self: center;
 }
+#form_label{
+	text-align: center;
+}
+form fieldset {
+    margin: 1%;
+    border: solid black 5px;
+    background-color: var(--background-color);
+    padding: .5rem 2%;
+}
+form legend{
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top form label.large{
+    display: block;
+    padding-top: 1rem;
+}
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid;
+    border-radius: 10px;
+    padding: .75rem;
+    color: var(--terc-color);
+    width: 85%;
+    max-width: 20rem;
+}
+form label.large textarea{
+	display: block;
+    font-size: 1rem;
+    border: solid var(--terc-color);
+    border-radius: 10px;
+    padding: .75rem;
+    width: 85%;
+    max-width: 20rem;
+	height: fit-content;
+}
+form input.submitBtn{
+    border:none;
+    background-color: var(--terc-color);
+    color:black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2% 0 2rem 2%;
+    width: 85%;
+    max-width: 20rem;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left:green solid 6px;
+}
+form label.sbs {
+    display:block;
+    padding: .75rem 0;
+    color: black;
+}
+#thanks{
+	background-color: var(--background-color);
+	text-align: center;
+}
 footer{
 	margin-top: 5%;
-    background-color: #fbd1a2;
+    background-color: var(--background-color);
+	justify-content: space-around;
     border: 5px  solid black;
 }
