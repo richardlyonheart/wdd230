@@ -15,7 +15,7 @@ const displayProphets = (prophets) => {
         let fullName = document.createElement("h2");
         let portrait = document.createElement("img");
 
-        fullName.textContent = '${prophet.name} ${prophet.lastName}'; //pulls from the source and compiles
+        fullName.textContent = `${prophet.name} ${prophet.lastname}`; //pulls from the source and compiles
         
         portrait.setAttribute('src', prophet.imageurl);//pulls url from source
         portrait.setAttribute('alt', 'Potrait of ${prophet.name} ${prophet.lastname}');
