@@ -1,0 +1,38 @@
+{
+    "familyName" : "Lyon",
+    "moveIn" : "12/12/12",
+    "familyNumber" : "5",
+    "visited" : "N",
+    "famMember" : [
+    {
+        "name" : "Brenden",
+        "gender" : "M",
+        "birthDate" : "12/28/1994"
+
+    },
+    {
+        "name" : "Jovi",
+        "gender" : "F",
+        "birthDate" : "12/28/1994"
+
+    },
+    {
+        "name" : "Baby",
+        "gender" : "F",
+        "birthDate" : "12/28/2023"
+
+    },
+    {
+        "name" : "Babe",
+        "gender" : "F",
+        "birthDate" : "12/28/2023"
+
+    },
+    {
+        "name" : "Granny",
+        "gender" : "F",
+        "birthDate" : "12/28/1979"
+
+    }
+    ]
+}    
