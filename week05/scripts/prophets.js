@@ -7,28 +7,25 @@ async function getProphetData() {
     console.table(data.prophets); // check data response in console
     displayProphets(data.prophets);
 }
+getProphetData(url); //activate funtion
 
-function displayProphets(){
-    const displayProphets = (prophets) => {
+const displayProphets = (prophets) => {
        
-        prophets.forEach((prophet) => {
-            let card = document.createElement("section");
-            let fullName = document.createElement("h2");
-            let portrait = document.createElement("img");
-            fullName.textContent = '${prophet.name} ${prophet.lastName}'; //pulls from the source and compiles
-            portrait.setAttribute('src', prophet.imageurl);//pulls url from source
-            portrait.setAttribute('alt', 'Potrait of ${prophet.name} ${prophet.lastname}');
+    prophets.forEach((prophet) => {
+        let card = document.createElement("section");
+        let fullName = document.createElement("h2");
+        let portrait = document.createElement("img");
+        fullName.textContent = '${prophet.name} ${prophet.lastName}'; //pulls from the source and compiles
+        portrait.setAttribute('src', prophet.imageurl);//pulls url from source
+        portrait.setAttribute('alt', 'Potrait of ${prophet.name} ${prophet.lastname}');
 
-            card.appendChild(fullName);
-            card.appendChild(portrait);
+        card.appendChild(fullName);
+        card.appendChild(portrait);
 
-            cards.appendChild(card);
+        cards.appendChild(card);
 
 
         });
     }
 
-}
 
-
-getProphetData();//activate the function
