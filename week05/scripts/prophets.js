@@ -14,7 +14,9 @@ const displayProphets = (prophets) => {
         let card = document.createElement("section");
         let fullName = document.createElement("h2");
         let portrait = document.createElement("img");
+
         fullName.textContent = '${prophet.name} ${prophet.lastName}'; //pulls from the source and compiles
+        
         portrait.setAttribute('src', prophet.imageurl);//pulls url from source
         portrait.setAttribute('alt', 'Potrait of ${prophet.name} ${prophet.lastname}');
         portrait.setAttribute('loading', 'lazy');
