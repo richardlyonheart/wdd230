@@ -3,13 +3,13 @@ const cards = document.querySelector("#cards"); // where information to be displ
 
 async function getProphetData() {
     const response = await fetch(url); //fetch information
-    const data = response.json; // store information
+    const data = response.json(); // store information
     console.table(data.prophets); // check data response in console
     displayProphets(data.prophets);
 }
 
 function displayProphets(){
-    const displayProphets() = (prophets) => {
+    const displayProphets = (prophets) => {
        
         prophets.forEach((prophet) => {
             let card = document.createElement("section");
