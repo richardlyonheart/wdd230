@@ -1,0 +1,97 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url":"week01/holygrail.html",
+                    "title":"HG layout"
+                },
+                {
+                    "url":"week01/media-query.html",
+                    "title":"MediaQuery"
+                },
+                {
+                    "url":"week01/chamber-site-plan.html",
+                    "title":"Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "week":"Week 2",
+            "links":[
+                {
+                    "url":"week02/design.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"BOM Application"
+                },
+                {
+                    "url":"https://codepen.io/richardlyonheart/pen/bGZWEyP",
+                    "title":"hamburger menu demo"
+                }
+            ]
+        },
+        {
+            "week":"week 3",
+            "links":[
+                {
+                    "url":"week03/images/landscape.webp",
+                    "title":"webp demo"
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title":"responsive Images demo"
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy Load demo"
+                },
+                {
+                    "url":"week03/bom.html",
+                    "title":"Local Storage demo"
+                }
+            ]
+        },
+        {
+            "week":"week 4",
+            "links":[
+                {
+                    "url":"https://codepen.io/richardlyonheart/pen/xxBjVWm",
+                    "title":"psuedo-classes demo"
+                },
+                {
+                    "url":"week04/screenshot.html",
+                    "title":"CSS combinations proof"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"Table Demo"
+                },
+                {
+                    "url":"week04/form-start/index.html",
+                    "title":"Forms Demo"
+                }
+            ]           
+        },
+        {
+            "week":"week 5",
+            "limks": [
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON example"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"JSON Array example"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather API Example"
+                }
+            ]
+        }
+    ]
+}
