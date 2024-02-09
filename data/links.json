@@ -2,7 +2,7 @@
     "weeks": [
         {
             "week": "Week 1",
-            "links": [
+            "links":[
                 {
                     "url":"week01/holygrail.html",
                     "title":"HG layout"
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "week":"week 3",
+            "week":"Week 3",
             "links":[
                 {
                     "url":"week03/images/landscape.webp",
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "week":"week 4",
+            "week":"Week 4",
             "links":[
                 {
                     "url":"https://codepen.io/richardlyonheart/pen/xxBjVWm",
@@ -77,8 +77,8 @@
             ]           
         },
         {
-            "week":"week 5",
-            "limks": [
+            "week":"Week 5",
+            "limks":[
                 {
                     "url": "week05/new-ward-members.json",
                     "title": "JSON example"
