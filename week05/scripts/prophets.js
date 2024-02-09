@@ -4,10 +4,11 @@ const cards = document.querySelector("#cards"); // where information to be displ
 async function getProphetData() {
     const response = await fetch(url); //fetch information
     const data = await response.json(); // store information
-   // console.table(data.prophets); // check data response in console
+    // console.table(data.prophets); // check data response in console
     displayProphets(data.prophets);
 }
-getProphetData(url); //activate funtion
+
+
 
 const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
@@ -31,4 +32,4 @@ const displayProphets = (prophets) => {
         });
     }
 
-
+    getProphetData(url); //activate funtion
