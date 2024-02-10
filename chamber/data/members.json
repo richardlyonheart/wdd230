@@ -1,0 +1,83 @@
+{
+    "members": [
+        {
+            "member": "Discount tire",
+            "info":[
+                {
+                    "address":"week01/holygrail.html",
+                    "phone":"HG layout",
+                    "link":"blah",
+                    "img":"",
+                    "level":""
+                }
+            ]
+        },
+        {
+            "member": "Beach boys",
+            "info":[
+                {
+                    "address":"week01/holygrail.html",
+                    "phone":"HG layout",
+                    "link":"blah",
+                    "img":"",
+                    "level":""
+                }
+            ]
+        },        {
+            "member": "lifeguards",
+            "info":[
+                {
+                    "address":"week01/holygrail.html",
+                    "phone":"HG layout",
+                    "link":"blah",
+                    "img":"",
+                    "level":""
+                }
+            ]
+        },        {
+            "member": "Athletic",
+            "info":[
+                {
+                    "address":"week01/holygrail.html",
+                    "phone":"HG layout",
+                    "link":"blah",
+                    "img":"",
+                    "level":""
+                }
+            ]
+        },        {
+            "member": "Microsoft",
+            "info":[
+                {
+                    "address":"week01/holygrail.html",
+                    "phone":"HG layout",
+                    "link":"blah",
+                    "img":"",
+                    "level":""
+                }
+            ]
+        },        {
+            "member": "Couch Nation",
+            "info":[
+                {
+                    "address":"week01/holygrail.html",
+                    "phone":"HG layout",
+                    "link":"blah",
+                    "img":"",
+                    "level":""
+                }
+            ]
+        },        {
+            "member": "CrazArt",
+            "info":[
+                {
+                    "address":"week01/holygrail.html",
+                    "phone":"HG layout",
+                    "link":"blah",
+                    "img":"",
+                    "level":""
+                }
+            ]
+        }
+    ]
+}
