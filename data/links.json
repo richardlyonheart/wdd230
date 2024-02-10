@@ -78,7 +78,7 @@
         },
         {
             "week":"Week 5",
-            "limks":[
+            "links":[
                 {
                     "url": "week05/new-ward-members.json",
                     "title": "JSON example"
