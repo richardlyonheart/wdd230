@@ -55,27 +55,7 @@
                 }
             ]
         },
-        {
-            "week":"Week 4",
-            "links":[
-                {
-                    "url":"https://codepen.io/richardlyonheart/pen/xxBjVWm",
-                    "title":"psuedo-classes demo"
-                },
-                {
-                    "url":"week04/screenshot.html",
-                    "title":"CSS combinations proof"
-                },
-                {
-                    "url":"week04/tablebuild.html",
-                    "title":"Table Demo"
-                },
-                {
-                    "url":"week04/form-start/index.html",
-                    "title":"Forms Demo"
-                }
-            ]           
-        },
+
         {
             "week":"Week 5",
             "limks":[
