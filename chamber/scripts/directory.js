@@ -2,13 +2,9 @@ const url="https://richardlyonheart.github.io/wdd230/chamber/data/members.json";
 const cards = document.querySelector("#member")
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const items = document.querySelector("card")
 
-// Set the default view to grid
-showGrid();
 
-//gridbutton.addEventListener("click", showGrid);
-//listbutton.addEventListener("click", showList);
 
 async function getMemberData() {
     const response = await fetch(url); //fetch information
@@ -30,6 +26,8 @@ const displayMembers = (members) => {
         address.textContent = `${member.address}`;
         membership.textContent = `${member.level}`;
         link.textContent = ('website');
+
+        card.setAttribute('id', "card")
         
         portrait.setAttribute('src', member.img);//pulls url from source
         portrait.setAttribute('alt', 'image of '+ `${member.name}`);
@@ -52,20 +50,11 @@ const displayMembers = (members) => {
 
     getMemberData(url); //activate funtion
 
-async function showGrid() {
-  const members = await getMemberData();
-  display.innerHTML = generateGridHTML(members);
-
-  // Add 'active' class to the grid button and remove it from the list button
-  gridbutton.classList.add("active");
-  listbutton.classList.remove("active");
-}
-
-async function showList() {
-  const members = await getMemberData();
-  display.innerHTML = generateListHTML(members);
-
-  // Add 'active' class to the list button and remove it from the grid button
-  listbutton.classList.add("active");
-  gridbutton.classList.remove("active");
-}
+    gridbutton.addEventListener("click", () => {
+        gridbutton.classList.toggle('active')
+        listbutton.classList.toggle('active')
+    });
+    listbutton.addEventListener("click", () => {
+        listbutton.classList.toggle('active')
+        gridbutton.classList.toggle('active')
+    });

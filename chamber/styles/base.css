@@ -35,10 +35,18 @@ nav{
 }
 #menu::before {
 	content: "☰";
+    background-color: var(--background-color);
 }
 
 #menu.open::before {
 	content: "X";
+    background-color: var(--terc-color);
+}
+#grid::before, #list::before {
+    background-color: var(--background-color);
+}
+#grid.active, #list.active{
+    background-color: var(--terc-color);
 }
 
 .navlist {
@@ -99,7 +107,7 @@ main{
 	flex-direction: column;
 	align-items: center;
 }
-.card , #member{
+.card {
 	margin-top: 5%;
 	margin-bottom: 5%;
     background-color: var(--background-color);
@@ -113,6 +121,38 @@ main{
 	width: 85%;
 	justify-self: center;
 }
+#grid.active ~ #member{
+    display: grid;
+    grid-template: 1fr auto/ 1fr 1fr;
+    justify-items: center;
+}
+#list.active ~ #member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid.active ~ #member #card{
+    margin-top: 5%;
+	margin-bottom: 5%;
+    background-color: var(--background-color);
+    text-align: center;
+    width: 70%;
+    min-width: 20px;
+    padding: 1rem;
+    border: 5px solid black;
+}
+#list.active ~ #member #card {
+	margin-top: 5%;
+	margin-bottom: 5%;
+    background-color: var(--background-color);
+    text-align: center;
+    width: 85%;
+    min-width: 20px;
+    padding: 1rem;
+    border: 5px solid black;
+}
+
 #form_label{
 	text-align: center;
 }
