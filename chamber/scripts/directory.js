@@ -1,4 +1,4 @@
-const url="https://richardlyonheart.github.io/wdd230/chamber/data/members.json"; //define the source of information
+const url="data/members.json"; //define the source of information
 const cards = document.querySelector("#member")
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
