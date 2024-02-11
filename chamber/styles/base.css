@@ -42,6 +42,12 @@ nav{
 	content: "X";
     background-color: var(--terc-color);
 }
+#grid , #list{
+    width: 20%;
+    align-self: center;
+    max-width: 80px;
+    max-height: 80px;
+}
 #grid::before, #list::before {
     background-color: var(--background-color);
 }
