@@ -1,4 +1,5 @@
 const currentTemp = document.querySelector('#current-temp');
+const currentWind = document.querySelector('#current-wind');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
@@ -22,7 +23,7 @@ async function apiFetch() {
   
   function displayResults(data) {
       currentTemp.innerHTML = `${data.main.temp.toFixed(0)}&deg;F`;
-    
+      currentWind.innerHTML = `${data.wind.speed} mph`;
       const weatherEvents = data.weather.map(event => {
         const iconsrc = `https://openweathermap.org/img/w/${event.icon}.png`;
         const desc = event.description.replace(/\b\w/g, l => l.toUpperCase());
