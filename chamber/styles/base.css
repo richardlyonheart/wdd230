@@ -64,8 +64,18 @@ span{
 #grid , #list{
     width: 20%;
     align-self: center;
-    max-width: 80px;
+    min-height: 30px;
     max-height: 80px;
+}
+#grid{
+    margin-top: 5%;
+    background-color: var(--background-color);
+    min-width: 100%;
+}
+#list{
+    margin-bottom: 5%;
+    background-color: var(--background-color);
+    min-width: 100%;
 }
 #grid::before, #list::before {
     background-color: var(--background-color);
@@ -165,6 +175,7 @@ main{
     align-self: center;
     margin-top: 10%;
 }
+
 #grid.active ~ #member{
     display: grid;
     grid-template: 1fr auto/ 1fr 1fr;
