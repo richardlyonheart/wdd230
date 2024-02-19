@@ -171,6 +171,8 @@ main{
 }
 
 #grid.active ~ #member #card{
+    display: flex;
+    flex-direction: column;
     margin-top: 5%;
 	margin-bottom: 5%;
     background-color: var(--background-color);
@@ -181,7 +183,17 @@ main{
     border: 5px solid black;
     box-shadow: 5px 5px 10px;
 }
+#member #card img{
+        display: block;
+        align-self: center;
+        max-width:230px;
+        max-height:230px;
+        width: auto;
+        height: auto;
+}
 #list.active ~ #member #card {
+    display: flex;
+    flex-direction: column;
 	margin-top: 5%;
 	margin-bottom: 5%;
     background-color: var(--background-color);
