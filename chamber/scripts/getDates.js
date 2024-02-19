@@ -10,6 +10,14 @@ document.querySelector('#year').textContent = currentDate.getFullYear();
 const lastModified = new Date(document.lastModified);
 document.querySelector('#lastModified').textContent = today;
 
+function bannerMaker() {
+  var date = new Date(); 
+  var element = document.getElementById("banner");
+  element.classList.add("day" + date.getDay());
+}
+
+bannerMaker();
+
 const currentTemp = document.querySelector('#current-temp');
 const forcastTemp = document.querySelector('#forcast');
 const weatherIcon = document.querySelector('#weather-icon');
@@ -81,10 +89,3 @@ async function apiFetch() {
       captionDesc.innerHTML = weatherEvents.join('');
     }
 
-    function bannerMaker() {
-      var date = new Date(); 
-      var element = document.getElementById("banner");
-      element.classList.add("day" + date.getDay());
-    }
-    
-    bannerMaker();

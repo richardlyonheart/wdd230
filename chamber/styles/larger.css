@@ -84,9 +84,7 @@
         border-color: #000;
         box-shadow: 5px 5px 10px;
     }
-    #banner.day0, #banner.day1, #banner.day2, #banner.day3{
-        position: absolute;
-        margin-top: 20%;
+    div#banner.day0, div#banner.day1, div#banner.day2, div#banner.day3{
         background-color: red; 
         grid-column: 1/5;
         min-width: 100%;
