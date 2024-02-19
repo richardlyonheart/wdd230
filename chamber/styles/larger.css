@@ -12,12 +12,10 @@
         border:none;
     }
     header{
-        padding:3%;
+        padding:3%;   
     }
-    #logo_link span{
+    #logo_link {
         display: inline-flex;
-        align-self: center;
-        font-size: x-large;
     }
     #logo_link img{
         max-height: 200px;
@@ -141,9 +139,8 @@
     }
     #thanks{
         text-align: center;
-        grid-column: 2/4;
-        border-radius: 50%;
-        border: solid black 5px;
+        width: 100vw;
+        font-size: x-large;
 
     }
     footer {

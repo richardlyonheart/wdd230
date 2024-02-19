@@ -25,9 +25,9 @@ const displayMembers = (members) => {
         fullName.textContent = `${member.name}`; //pulls from the source and compiles
         address.textContent = `${member.address}`;
         membership.textContent = `${member.level}`;
-        link.textContent = ('website');
+        link.textContent = ('Website');
 
-        card.setAttribute('id', "card")
+        card.setAttribute('class', "card")
         
         portrait.setAttribute('src', member.img);//pulls url from source
         portrait.setAttribute('alt', 'image of '+ `${member.name}`);
@@ -35,7 +35,7 @@ const displayMembers = (members) => {
         portrait.setAttribute('width', '340');
         portrait.setAttribute('height', '440');
 
-        link.setAttribute('href', `${link}`)
+        link.setAttribute('href', `${member.link}`)
 
 
         card.appendChild(fullName);
