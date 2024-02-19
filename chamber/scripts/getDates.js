@@ -80,3 +80,11 @@ async function apiFetch() {
     
       captionDesc.innerHTML = weatherEvents.join('');
     }
+
+    function bannerMaker() {
+      var date = new Date(); 
+      var element = document.getElementById("banner");
+      element.classList.add("day" + date.getDay());
+    }
+    
+    bannerMaker();

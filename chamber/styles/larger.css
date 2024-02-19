@@ -12,13 +12,18 @@
         border:none;
     }
     header{
-        padding:3%;   
+        padding:3%; 
+        align-items: center;  
+        font-size: larger;
     }
-    #logo_link {
-        display: inline-flex;
-    }
+    
     #logo_link img{
         max-height: 200px;
+    }
+    span{
+        color:black;
+        font-size: larger;
+        margin-left: 50px;
     }
     nav{
         max-height: 100px;
