@@ -50,6 +50,16 @@ const displayMembers = (members) => {
 
     getMemberData(url); //activate funtion
 
+    const displayhighlights = (members) => {
+        members.forEach((member)=> {
+            let card= document.createElement("section");
+            let fullName = document.createElement("h2");
+            let link =document.createElement("a");
+            let portrait = document.createElement("img");
+
+        })
+    }
+
     gridbutton.addEventListener("click", () => {
         gridbutton.classList.toggle('active')
         listbutton.classList.toggle('active')

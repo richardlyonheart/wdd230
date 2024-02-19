@@ -46,18 +46,18 @@
         },
         {
                 
-         "name":"Beach Boys",
+         "name":"Beach Boys 2",
         "address":"02 Beach Boy street, Galveston, TX",
         "phone":"409 123 4567",
         "link":"https://richardlyonheart.github.io/wdd230/chamber/data/members.json",
         "img":"https://richardlyonheart.github.io/wdd230/chamber/images/beach-boys.webp",
-        "level":"Gold"
+        "level":"Bronze"
             
                 
         },
         {
                 
-        "name":"Microsoft",
+        "name":"Microsoft 2",
         "address":"100 Microsoft ln, Galveston TX",
         "phone":"409 321 7654",
         "link":"https://richardlyonheart.github.io/wdd230/chamber/data/members.json",
@@ -68,12 +68,12 @@
         },
         {
                     
-        "name":"Staedtler",
+        "name":"Staedtler 2",
         "address":"1234 Staedtler st, Galveston TX",
         "phone":"409 900 0009",
         "link":"https://richardlyonheart.github.io/wdd230/chamber/data/members.json",
         "img":"https://richardlyonheart.github.io/wdd230/chamber/images/staedtler-logo.webp",
-        "level":"Silver"
+        "level":"Bronze"
                 
                     
         }
