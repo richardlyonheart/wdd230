@@ -85,6 +85,8 @@
         box-shadow: 5px 5px 10px;
     }
     div#banner.day0, div#banner.day1, div#banner.day2, div#banner.day3{
+        position: absolute;
+        top:auto;
         background-color: red; 
         grid-column: 1/5;
         min-width: 100%;
