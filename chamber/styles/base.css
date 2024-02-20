@@ -64,14 +64,6 @@ span{
 }
 
 
-div#banner.day0, div#banner.day1, div#banner.day2, div#banner.day3 {
-    background-color: red; 
-    grid-column: 1/5;
-    min-width: 100%;
-}
-div#banner.day4, div#banner.day5, div#banner.day6{
-    display: none;
-}
 
 #grid , #list{
     width: 20%;
@@ -162,6 +154,17 @@ main{
 #button-box :hover{
     background-color: var(--background-color);
 }
+div#banner.day0, div#banner.day1, div#banner.day2, div#banner.day3 {
+    background-color: red; 
+    font-size: x-large;
+    text-align: center;
+    grid-column: 1/5;
+    min-width: 100%;
+}
+div#banner.day4, div#banner.day5, div#banner.day6{
+    display: none;
+}
+
 .sidebar , .gallery{
 	display: flex;
 	flex-direction: column;
