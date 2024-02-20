@@ -5,14 +5,14 @@ const listbutton = document.querySelector("#list");
 const items = document.querySelector("card")
 
 
-
+//get data from json for program to read
 async function getMemberData() {
     const response = await fetch(url); //fetch information
     const data = await response.json(); // store information
     // console.table(data.members); // check data response in console
     displayMembers(data.members);
 }
-
+//looks on json and pulls from data based on what we want displayed in a loop to go through all the members
 const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement("section");
@@ -49,9 +49,10 @@ const displayMembers = (members) => {
     }
 
     getMemberData(url); //activate funtion
-
+//getting the gold and silver members a special part on main page for their adverts. 
     const displayhighlights = (members) => {
-        members.forEach((member)=> {
+        members.forEach((member)=> {  
+                                                              //continue to work on this!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! if / then statement for gold and silver also need random for display
             let card= document.createElement("section");
             let fullName = document.createElement("h2");
             let link =document.createElement("a");
@@ -59,7 +60,7 @@ const displayMembers = (members) => {
 
         })
     }
-
+//add button that changes a class in an element when clicked
     gridbutton.addEventListener("click", () => {
         gridbutton.classList.toggle('active')
         listbutton.classList.toggle('active')
@@ -69,6 +70,7 @@ const displayMembers = (members) => {
         gridbutton.classList.toggle('active')
     });
 
+//extra work trying to make the join us page functional
     function handleFormSubmit(event) {
         event.preventDefault();
         

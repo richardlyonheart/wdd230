@@ -1,3 +1,4 @@
+//looks to see how long since last loaded the page
 document.addEventListener('DOMContentLoaded', function() {
     if (!localStorage.lastVisit) {
         localStorage.lastVisit = Date.now();
