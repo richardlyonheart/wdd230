@@ -15,6 +15,7 @@
         padding:3%; 
         align-items: center;  
         font-size: larger;
+        border-radius: 0px;
     }
     
     #logo_link img{
@@ -59,7 +60,7 @@
     main{
         margin-top: 1%;
         display: grid;
-        grid-template: auto 1fr/1fr 1fr 1fr 1fr;
+        grid-template: auto 1fr 1fr/1fr 1fr 1fr 1fr;
         justify-items: center;
         grid-column: 1/3;
         border: none;
@@ -83,6 +84,7 @@
         border: 3px solid black;
         border-color: #000;
         box-shadow: 5px 5px 10px;
+        border-radius: 0px;
     }
     div#banner.day0, div#banner.day1, div#banner.day2, div#banner.day3{
         position: absolute;
@@ -91,11 +93,21 @@
         grid-column: 1/5;
         min-width: 100%;
     }
-   #grid, #list{
-    grid-column: 2/4;
+   #grid{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+   }
+   #list{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    grid-column: 3/4;
+    grid-row: 1/2;
    }
    #member{
     grid-column: 1/5;
+    grid-row: 2/4;
    }
    #grid.active ~ #member{
     display: grid;
@@ -113,20 +125,22 @@
         height: auto;
         object-fit: cover;
         z-index: -1;
+        border-radius: 0px;
     }
     .sidebar{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        grid-row: 1 / 3;
+        grid-row: 1 / 4;
         grid-column: 4 / 5;
         z-index: 1;
+    
     }
     .gallery{
         display:grid;
         grid-template: 1fr 1fr 1fr/ 1fr 1fr;
         grid-column: 1/4;
-        grid-row:1/3;
+        grid-row:1/4;
         
     }
     .card {
@@ -136,19 +150,36 @@
         text-align: center;
         border: 2px solid black;
         box-shadow: 5px 5px 10px;
+        border-radius: 0px;
     }
+
     .gallery img:hover {
         opacity: .8;
         transform: scale(1.3);
     }
     form{
         grid-column: 1/3;
-        grid-row: 2/3;
+        grid-row: 2/4;
     }
     #form_label{
         grid-column:1/3;
         grid-row:1/2;
     }
+    form fieldset {
+        border-radius: 0px;
+    }
+    #membership{
+        grid-row: 2/2;
+    }
+    .highlights{
+        grid-row: 2/4;
+        grid-column: 1/4;
+        align-items: center;
+    }
+    #spotlight{
+        align-self: center;
+    }
+ 
     #thanks{
         text-align: center;
         width: 100vw;
@@ -160,6 +191,7 @@
         flex-direction: row;
         font-size: x-large;
         padding: 3%;
+        border-radius: 0px;
 
     }
     }
