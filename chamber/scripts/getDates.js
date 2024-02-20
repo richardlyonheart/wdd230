@@ -20,7 +20,7 @@ function bannerMaker() {
   element.classList.add("day" + date.getDay());
 }
 //activate the function
-bannerMaker();
+
 //attach variables to parts of html page ids to see where on page to populate
 const currentTemp = document.querySelector('#current-temp');
 const forcastTemp = document.querySelector('#forcast');
@@ -45,7 +45,7 @@ async function apiFetch() {
     }
   }
   //call for json current weather
-  apiFetch(weatherUrl);
+  
   //display current weather and icon
   function displayResults(data) {
       currentTemp.innerHTML = `${data.main.temp.toFixed(0)}&deg;F`;
@@ -79,10 +79,12 @@ async function apiFetch() {
     }
     //Weather forcasting!!!
     //calling the forcasted information
-    apiFetch2(weatherForcast);
+    
     
 //display forcasted weather
     function displayForcast(list) {
       forcastTemp.innerHTML = `${list.main.temp.toFixed(0)}&deg;F`;
     }
-
+    apiFetch(weatherUrl);
+    bannerMaker();
+    apiFetch2(weatherForcast);
